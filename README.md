@@ -66,11 +66,11 @@ Would you like to do view based testing? [ Yes / No ]
 3. Set up project on github
     - Run Terminal and follow this steps
 ```ruby
-cd <root folder for you're pod project>
+cd <project root folder>
 git init
 git add -A
 git commit -m "commit description"
-git remote add origin <Remote url for you're project.git>
+git remote add origin <RemoteUrl.git>
 git push -u origin master
 ```
     - Navigate back to you're project in XCode or open ProjectName.xcworkspace
@@ -109,7 +109,7 @@ Source Controll -> Commit or option+command+c -> commit
 ```
     - open terminal and check if file is ok and fix it if needed
 ```ruby
-cd <Root folder for project>
+cd <project root folder>
 
 pod spec lint <Name of the podspec file>.podspec
 ```
@@ -119,7 +119,7 @@ pod spec lint <Name of the podspec file>.podspec
         - publish
     - open terminal and follow nest steps
 ```ruby
-cd <root folder of the project>
+cd <project root folder>
 
 pod trunk register <you're e-mail address>
 
@@ -132,9 +132,9 @@ pod trunk push <podspec file name>.podspec
 --------------------------------------------------------------------------------
  🎉  Congrats
 
- 🚀  <You're pod name> (1.0.1) successfully published
+ 🚀  <you're pod name> (1.0.1) successfully published
  📅  November 2nd, 12:13
- 🌎  https://cocoapods.org/pods/<You're pod name>
+ 🌎  https://cocoapods.org/pods/<you're pod name>
  👍  Tell your friends!
 --------------------------------------------------------------------------------
 ```
