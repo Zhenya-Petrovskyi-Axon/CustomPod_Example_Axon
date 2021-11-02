@@ -105,13 +105,13 @@ end
  ```
     - push to remote
 ```ruby
-Source Controll -> Commit or option+command+c -> commit
+Source Controll -> "commit" or option+command+c -> "commit"
 ```
     - open terminal and check if file is ok and fix it if needed
 ```ruby
 cd <project root folder>
 
-pod spec lint <Name of the podspec file>.podspec
+pod spec lint <name>.podspec
 ```
     - if everything is 👍
         - go to remote git project and navigate to "Publish you're first release"
