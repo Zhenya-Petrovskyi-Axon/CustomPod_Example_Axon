@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CustomPod_Example_Axon'
-  s.version          = '0.1.0'
+  s.version          = '1.0.1'
   s.summary          = 'Simple class to perform basic math methods.'
   
   s.description      = 'Practicing with implementation of custom cocoa pod'
