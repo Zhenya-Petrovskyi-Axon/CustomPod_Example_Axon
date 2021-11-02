@@ -45,7 +45,7 @@
 		C4362E069E406B373818721B /* Pods_CustomPod_Example_Axon_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomPod_Example_Axon_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95BC3DBE24A163420B0FD6A /* Pods-CustomPod_Example_Axon_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomPod_Example_Axon_Example.release.xcconfig"; path = "Target Support Files/Pods-CustomPod_Example_Axon_Example/Pods-CustomPod_Example_Axon_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C9CF97269B1AFB0F17621DAB /* Pods-CustomPod_Example_Axon_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomPod_Example_Axon_Example.debug.xcconfig"; path = "Target Support Files/Pods-CustomPod_Example_Axon_Example/Pods-CustomPod_Example_Axon_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E3CF3C2B008541D981671A30 /* CustomPod_Example_Axon.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CustomPod_Example_Axon.podspec; path = ../CustomPod_Example_Axon.podspec; sourceTree = "<group>"; };
+		E3CF3C2B008541D981671A30 /* CustomPod_Example_Axon.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CustomPod_Example_Axon.podspec; path = ../CustomPod_Example_Axon.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EAD5A83BE3507AC6AE7A07A6 /* Pods-CustomPod_Example_Axon_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomPod_Example_Axon_Tests.release.xcconfig"; path = "Target Support Files/Pods-CustomPod_Example_Axon_Tests/Pods-CustomPod_Example_Axon_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -212,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 5B6563Q5YJ;
 						LastSwiftMigration = 1310;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 5B6563Q5YJ;
 						LastSwiftMigration = 1310;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -485,6 +487,7 @@
 			baseConfigurationReference = C9CF97269B1AFB0F17621DAB /* Pods-CustomPod_Example_Axon_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5B6563Q5YJ;
 				INFOPLIST_FILE = CustomPod_Example_Axon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -500,6 +503,7 @@
 			baseConfigurationReference = C95BC3DBE24A163420B0FD6A /* Pods-CustomPod_Example_Axon_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5B6563Q5YJ;
 				INFOPLIST_FILE = CustomPod_Example_Axon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -514,6 +518,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B834413B113098E80F7FAA9B /* Pods-CustomPod_Example_Axon_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 5B6563Q5YJ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -536,6 +541,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EAD5A83BE3507AC6AE7A07A6 /* Pods-CustomPod_Example_Axon_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 5B6563Q5YJ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

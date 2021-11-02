@@ -10,10 +10,10 @@
 		06D924FC96B44744D80BD6A639E28C16 /* CustomPod_Example_Axon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B28EDDF9ED75B4B8BA2F618553554CFE /* CustomPod_Example_Axon-dummy.m */; };
 		3AA6D75F4060B06495C100D1DBFBEF51 /* Pods-CustomPod_Example_Axon_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14398001FBA6C272154EB582AFB539B4 /* Pods-CustomPod_Example_Axon_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C32C2266AB173C47DD88CA4FF8530D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4537C94F27313A7C00B5FAED /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4537C94E27313A7C00B5FAED /* Calculator.swift */; };
 		590F0CBFD48A401ACCBED6B621D7D271 /* Pods-CustomPod_Example_Axon_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD3A415A0974E380FF8B0543FEB4DCC /* Pods-CustomPod_Example_Axon_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70889263A6097968CE2891378F5C216C /* Pods-CustomPod_Example_Axon_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C40F7228CE802D5944BEB1E53E404F93 /* Pods-CustomPod_Example_Axon_Tests-dummy.m */; };
 		A5549B36909BA377C4A257A215E3550C /* CustomPod_Example_Axon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D351A6E73D88FE029B21BF5396490E5 /* CustomPod_Example_Axon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B33AB56789ECBB2ECDB2E44722A5AB22 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE44C73E8B0817DA9DCDD597D70FD8 /* ReplaceMe.swift */; };
 		D5ECD465A8E2C10BC6D4B37EF7DBC7D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		DBFBF0A5ED7EBD15C93C9F9445F6A7BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E9220E9BE011169D261703B74C3FFC09 /* Pods-CustomPod_Example_Axon_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB7C0CBA5633E474085DA33DAEFC874 /* Pods-CustomPod_Example_Axon_Example-dummy.m */; };
@@ -46,9 +46,9 @@
 		2B54B21ED3C55E0C87BABA0D1D88FE14 /* Pods_CustomPod_Example_Axon_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomPod_Example_Axon_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FDF14CD2DE860EB7CA4252598C1A7B8 /* Pods-CustomPod_Example_Axon_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomPod_Example_Axon_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3F4A7B9BC63ED25EE12EDA8293552C1C /* Pods-CustomPod_Example_Axon_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomPod_Example_Axon_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4537C94E27313A7C00B5FAED /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		4CCC5A12C1D3BE2034D981E02A17B82A /* Pods-CustomPod_Example_Axon_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomPod_Example_Axon_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		58E8CC058B5564DC81B3DFBC3A1A1CA8 /* Pods-CustomPod_Example_Axon_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomPod_Example_Axon_Tests-Info.plist"; sourceTree = "<group>"; };
-		5FFE44C73E8B0817DA9DCDD597D70FD8 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CustomPod_Example_Axon/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		638BEA7811A6649D2DB68BA067231E13 /* CustomPod_Example_Axon.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CustomPod_Example_Axon.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6BC45631FDB6CABFB0FFFFB2BCC76BE8 /* Pods-CustomPod_Example_Axon_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomPod_Example_Axon_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6DD33E4839F3B0E139233330C64DDFC0 /* Pods-CustomPod_Example_Axon_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomPod_Example_Axon_Example-Info.plist"; sourceTree = "<group>"; };
@@ -118,10 +118,18 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		4537C94D27313A5A00B5FAED /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4537C94E27313A7C00B5FAED /* Calculator.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		4F03891995DB8A3D4B98B793E1FABDF7 /* CustomPod_Example_Axon */ = {
 			isa = PBXGroup;
 			children = (
-				5FFE44C73E8B0817DA9DCDD597D70FD8 /* ReplaceMe.swift */,
+				4537C94D27313A5A00B5FAED /* Source */,
 				D5BA80D00FE58A6919BA7E66ABAA27A9 /* Pod */,
 				F78F1B22B0FF1E544E0940F358A00C70 /* Support Files */,
 			);
@@ -396,7 +404,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06D924FC96B44744D80BD6A639E28C16 /* CustomPod_Example_Axon-dummy.m in Sources */,
-				B33AB56789ECBB2ECDB2E44722A5AB22 /* ReplaceMe.swift in Sources */,
+				4537C94F27313A7C00B5FAED /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +530,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 074F56825C7FBDB6E42C338F22FE0AA3 /* CustomPod_Example_Axon.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -543,6 +552,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -554,6 +564,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BA8DB45CCC5A8C92CF4B5C51E92F39A2 /* CustomPod_Example_Axon.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
