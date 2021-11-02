@@ -1,0 +1,6 @@
+framework module CustomPod_Example_Axon {
+  umbrella header "CustomPod_Example_Axon-umbrella.h"
+
+  export *
+  module * { export * }
+}

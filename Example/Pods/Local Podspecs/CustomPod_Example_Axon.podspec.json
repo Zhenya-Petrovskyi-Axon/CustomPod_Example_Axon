@@ -1,0 +1,22 @@
+{
+  "name": "CustomPod_Example_Axon",
+  "version": "0.1.0",
+  "summary": "A short description of CustomPod_Example_Axon.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Zhenya-Petrovskyi-Axon/CustomPod_Example_Axon",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Zhenya-Petrovskyi-Axon": "epetrovskyi@axon.dev"
+  },
+  "source": {
+    "git": "https://github.com/Zhenya-Petrovskyi-Axon/CustomPod_Example_Axon.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CustomPod_Example_Axon/Classes/**/*"
+}

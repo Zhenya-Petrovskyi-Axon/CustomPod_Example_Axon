@@ -1,0 +1,16 @@
+PODS:
+  - CustomPod_Example_Axon (0.1.0)
+
+DEPENDENCIES:
+  - CustomPod_Example_Axon (from `../`)
+
+EXTERNAL SOURCES:
+  CustomPod_Example_Axon:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CustomPod_Example_Axon: 1cd8e60923353d0181562602525899c9cc32b53a
+
+PODFILE CHECKSUM: a268b37d653be083d6b3081a7c435ef518f5313b
+
+COCOAPODS: 1.11.2
